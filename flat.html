@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-home-page d-flex flex-column justify-content-end" id="sectionflatshomepage">
+        <div class="text-container ">
+            <h1 class="heading">sunrise avenue</h1>
+            <p class="paragraph">move to what moves you</p>
+            <button class="btn btn-secondary" onclick="display('sectionflatslistpage')">book flat</button>
+        </div>
+
+
+        <div class="flats-list" id="sectionflatslistpage">
+            <h1 class="heading1">sunrise avenue</h1>
+            <div class="individual-flat d-flex flex-row" id="section3bhk">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="image2" onclick="display('section3bhkpage')" />
+                <div class="text-description">
+                    <h1 class="heading2">3bhk flat</h1>
+                    <p class="paragraph">this house is very beautiful and very comfortable living big family.around 1600sq.mts.having higher furniture with gud facilities</p>
+                </div>
+            </div>
+            <div class="individual-flat d-flex flex-row" id="section2bhk">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="image2" onclick="display('section2bhkpage')" />
+                <div class="text-description">
+                    <h1 class="heading2">2bhk flat</h1>
+                    <p class="paragraph">this house is very beautiful and very comfortable living big family.around 1600sq.mts.having higher furniture with gud facilities</p>
+                </div>
+            </div>
+            <div class="individual-flat d-flex flex-row" id="section4bhk">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="image2" onclick="display('section3bhkpage')" />
+                <div class="text-description">
+                    <h1 class="heading2">4bhk flat</h1>
+                    <p class="paragraph">this house is very beautiful and very comfortable living big family.around 1600sq.mts.having higher furniture with gud facilities </p>
+                </div>
+            </div>
+            <button class="btn btn-secondary" onclick="display('sectionflatshomepage')">back</button>
+        </div>
+        <div class="bottom-section" id="section3bhkpage">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="image3" />
+
+            <h1 class="heading3"> RS 3000/-</h1>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="image4" />
+                <p class="paragraph1">D/N 5-2,Food street,Indore</p>
+            </div>
+            <hr />
+            <h1 class="heading3">description</h1>
+            <p class="paragraph">this is a fully furnished house with all the furnitures.the area of house is 1600sq.cm.it is having all the facilities.total of 3 bed rooms with one swimming pool.</p>
+            <div class="d-flex flex-row">
+                <button class="btn btn-secondary">confirm</button>
+                <button class="btn btn-secondary" onclick="display('sectionflatslistpage')">back</button>
+            </div>
+        </div>
+
+        <div class="bottom-section" id="section2bhkpage">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="image3" />
+
+            <h1 class="heading3"> RS 2000/-</h1>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="image4" />
+                <p class="paragraph1">D/N 5-2,Food street,Indore</p>
+            </div>
+            <hr />
+            <h1 class="heading3">description</h1>
+            <p class="paragraph">this is a fully furnished house with all the furnitures.the area of house is 1600sq.cm.it is having all the facilities.total of 3 bed rooms with one swimming pool.</p>
+            <div class="d-flex flex-row">
+                <button class="btn btn-secondary">confirm</button>
+                <button class="btn btn-secondary" onclick="display('sectionflatslistpage')">back</button>
+            </div>
+        </div>
+        <div class="bottom-section" id="section4bhkpage">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" class="image3" />
+
+            <h1 class="heading3"> RS 4000/-</h1>
+            <div class="d-flex flex-row">
+                <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="image4" />
+                <p class="paragraph1">D/N 5-2,Food street,Indore</p>
+            </div>
+            <hr />
+            <h1 class="heading3">description</h1>
+            <p class="paragraph">this is a fully furnished house with all the furnitures.the area of house is 1600sq.cm.it is having all the facilities.total of 3 bed rooms with one swimming pool.</p>
+            <div class="d-flex flex-row">
+                <button class="btn btn-secondary">confirm</button>
+                <button class="btn btn-secondary" onclick="display('sectionflatslistpage')">back</button>
+            </div>
+        </div>
+    </div>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Bree Serif:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-home-page {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    background-size: cover;
+    height: 100vh;
+
+
+}
+
+.text-container {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: white;
+
+
+}
+
+.image2 {
+    padding: 10px;
+    height: 40vh;
+}
+
+.heading2 {
+    font-size: 20px;
+    color: #222222;
+    text-align: center;
+}
+
+.heading1 {
+    padding: 10px;
+    font-size: 20px;
+    color: #f19116;
+}
+
+.heading {
+    color: #f19116;
+    font-size: 20px;
+    text-align: center;
+}
+
+.paragraph {
+    color: #7b8794;
+    font-size: 15px;
+    text-align: center;
+}
+
+.individual-flat {
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.flats-list {
+    background-color: #0f0e46;
+}
+
+.image3 {
+    height: 50vh;
+    padding: 10px;
+    background-size: cover;
+}
+
+.image4 {
+    height: 15vh;
+    padding: 10px;
+}
+
+.heading3 {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.paragraph1 {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.bottom-section {
+    background-color: #222222;
+}
+    </style>
+
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
